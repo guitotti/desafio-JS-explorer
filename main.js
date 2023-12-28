@@ -1,0 +1,21 @@
+import { helloWorld } from "./scripts/helloWorld.js";
+import { add } from "./scripts/add.js";
+import { sub } from "./scripts/sub.js";
+import { division } from "./scripts/division.js";
+import { multiplication } from "./scripts/multiplication.js";
+import { verifyNumber } from "./scripts/verifyNumber.js";
+import { verifyString } from "./scripts/verifyString.js";
+import { verifyBoolean } from "./scripts/verifyBoolean.js";
+import { verifyEvenNumber } from "./scripts/verifyEvenNumber.js";
+import { verifyOddNumber } from "./scripts/verifyOddNumber.js";
+
+helloWorld();
+add(12, 13);
+sub(35, 19);
+multiplication(3, 9);
+division(40, 3);
+verifyNumber(Number("14"));
+verifyString("Guilherme");
+verifyBoolean(true);
+verifyEvenNumber(10);
+verifyOddNumber(13);
